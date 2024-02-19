@@ -1,0 +1,110 @@
+:root{
+    --Primary-Color: #000000;
+    --Secondry-Color: #ffffff;
+    --Third-Color:#808080;
+    --Fourth-Color: #E5E4E2;
+    --Fifth-Color: #fd4c82;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    
+/* background-image: url(./Assets/Images/petvet-logo.png);
+background-repeat: no-repeat;
+background-attachment: 100% 100%;
+background-size: cover; */
+}
+
+.padding{
+    padding: 10px;
+}
+
+.header{
+    background-color: var(--Fourth-Color);
+}
+
+.header-nav{
+background-color: var(--Fourth-Color);
+bottom: 20px;
+width: 100%;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.header-bg{
+    background-color: var(--Secondry-Color);
+}
+
+.contact-us span{
+    color: var(--Third-Color);
+    font-weight: bold;
+font-size: small;    
+}
+.contact-us a{
+    color: var(--Primary-Color);
+    font-weight: bold;
+    font-size: small;
+}
+
+.logo-wrapper{
+    position: relative;
+    top: 15px;
+}
+
+.logo-wrapper h1{
+color: var(--Primary-Color);
+font-weight: bold;
+font-size: 25px;
+}
+
+.logo-wrapper h1 span{
+    color: var(--Fifth-Color);
+font-weight: light;
+font-size: 15px;
+padding-bottom: 100%;
+position: relative;
+bottom: 25px;
+left: 50px;
+    }
+
+    .logo-wrapper img{
+        width: 50px;
+        position: relative;
+        top: 5px;        
+    }
+
+    .home-pink a .home{
+        color: var(--Fifth-Color);
+    }
+
+    .button{
+        width: 100%;
+        height: 40px;
+        padding: 30px;
+        background-color: var(--Fifth-Color);
+    }
+
+    .button span{ color: var(--Primary-Color);
+        font-weight: bold;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .items-nav a{
+        color: var(--Primary-Color);
+   font-weight: bold;
+    }
+
+    .last-links{margin-top: 50%;
+
+    }
+h6{
+    margin-top: 50%;
+}
+
+.footer{
+    background-color: var(--Fourth-Color);
+}
